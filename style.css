@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+/* .redirectAlink:hover {
+    color: red;
+}
+.redirectAlink:active{
+    color: green;
+}
+
+ .parentDiv p:first-child{
+color: yellow;
+}
+.parentDiv p:last-child{
+    color: blue;
+} */
+.parentDiv p:nth-last-child(2){
+background-color: red;
+}
+.parentDiv p:nth-of-type(odd){
+    color: lightblue;
+}
+.parentDiv p:nth-of-type(even){
+    color: blueviolet;
+
+} */
+ul{
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+}
+ul:hover li{
+    color: lightblue;
+    background-color: blue;
+}
+ul li{
+    background-color: lightgreen;
+    display: inline;
+} 
+
+.parentDiv::first-line{
+    color: lightgreen;
+} 
